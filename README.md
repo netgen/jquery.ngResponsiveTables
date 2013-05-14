@@ -1,4 +1,4 @@
-**Preview**: [ngResponsiveTables](http://jsfiddle.net/HyxAP/1/) - Resize the screen to see how it works :)
+**Preview**: [ngResponsiveTables](http://jsbin.com/azeyun/1/edit) - Resize the screen to see how it works & __don't forget to click "Run with JS" located on top right of output tab__
 
 **Warning**: This jquery plugin requires CSS3 in order to work properly!*
 
