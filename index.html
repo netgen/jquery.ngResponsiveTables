@@ -1,0 +1,150 @@
+<html>
+<head>
+	<title>Responsive tables</title>
+	<link rel="stylesheet" type="text/css" href="ng_responsive_tables.css">
+	<script type="text/javascript" src="jquery-1.9.0.js"></script>
+	<script type="text/javascript" src="ng_responsive_tables.js"></script>
+</head>
+
+<script type="text/javascript">
+$(function(){
+  ngResponsiveTables.init({
+    tableSelector: '.ng-table',
+    smallPaddingMax: 13,
+  	mediumPaddingMax: 18,
+	largePaddingMax: 30
+  });
+});
+</script>
+
+<style type="text/css">
+	body { background: #f5f5f5; padding: 40px; }
+	h1,
+	h2,
+	.holder { font-family: Consolas, Monaco, Courier, monospace; }
+	h2,
+	p { margin: 0; }
+	span.numeric { color: #009999; }
+	span.string { color: #DD1144; }
+	.options { font-family: Verdana; font-size: 12px; }
+	.options .holder { margin: 10px 0 25px; background: #f8f8f8; border-radius: 3px; color: #333; border: 1px solid #ccc; padding: 15px 10px; }
+	.options p { color: #000; }
+	p { color: #666 }
+</style>
+
+<body>
+
+	<table class="ng-table">
+		<tbody><tr>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>Job Title</th>
+			<th>Favorite Color</th>
+			<th>Wars or Trek?</th>
+			<th>Porn Name</th>
+			<th>Date of Birth</th>
+			<th>Dream Vacation City</th>
+			<th>GPA</th>
+			<th>Arbitrary Data</th>
+		</tr>
+		<tr>
+			<td>James</td>
+			<td>Matman</td>
+			<td>Chief Sandwich Eater</td>
+			<td>Lettuce Green</td>
+			<td>Trek</td>
+			<td>Digby Green</td>
+			<td>January 13, 1979</td>
+			<td>Gotham City</td>
+			<td>3.1</td>
+			<td>RBX-12</td>
+		</tr>
+		<tr>
+		  <td>The</td>
+		  <td>Tick</td>
+		  <td>Crimefighter Sorta</td>
+		  <td>Blue</td>
+		  <td>Wars</td>
+		  <td>John Smith</td>
+		  <td>July 19, 1968</td>
+		  <td>Athens</td>
+		  <td>N/A</td>
+		  <td>Edlund, Ben (July 1996).</td>
+		</tr>
+		<tr>
+		  <td>Jokey</td>
+		  <td>Smurf</td>
+		  <td>Giving Exploding Presents</td>
+		  <td>Smurflow</td>
+		  <td>Smurf</td>
+		  <td>Smurflane Smurfmutt</td>
+		  <td>Smurfuary Smurfteenth, 1945</td>
+		  <td>New Smurf City</td>
+		  <td>4.Smurf</td>
+		  <td>One</td>
+		</tr>
+		<tr>
+		  <td>Cindy</td>
+		  <td>Beyler</td>
+		  <td>Sales Representative</td>
+		  <td>Red</td>
+		  <td>Wars</td>
+		  <td>Lori Quivey</td>
+		  <td>July 5, 1956</td>
+		  <td>Paris</td>
+		  <td>3.4</td>
+		  <td>3451</td>
+		</tr>
+		<tr>
+		  <td>Captain</td>
+		  <td>Cool</td>
+		  <td>Tree Crusher</td>
+		  <td>Blue</td>
+		  <td>Wars</td>
+		  <td>Steve 42nd</td>
+		  <td>December 13, 1982</td>
+		  <td>Las Vegas</td>
+		  <td>1.9</td>
+		  <td>Under the couch</td>
+		</tr>
+	</tbody></table>
+
+	<h2 style="margin: 40px 0px;">In order to see "ngResponsiveTable" in action, resize this window to 480px or less</h2>
+
+	<h1>Options</h1>
+
+	<div class="options">
+		<h2>tableSelector</h2>
+		<p>Table to use responsive styles on. You can use any element selector.</p>
+		<div class="holder">
+			<p>default: <span class="string">'.ng-table'</span></p>
+			<p>options: Any selector on the table. Example: <span class="string">'#myTable'</span></p>
+		</div>
+
+		<h2>smallPaddingMax</h2>
+		<p>Set the max number of characters inside current table cell, and add class <span class="string">'small-padding'</span> on current td (if characters length is smaller than this number)</p>
+		<div class="holder">
+			<p>default: <span class="numeric">0</span></p>
+			<p>options: Any integer number</p>
+		</div>
+
+		<h2>mediumPaddingMax</h2>
+		<p>Set the max number of characters inside current table cell, and add class <span class="string">'medium-padding'</span> on current td (if characters length is smaller than this number)</p>
+		<div class="holder">
+			<p>default: <span class="numeric">0</span></p>
+			<p>options: Any integer number</p>
+		</div>
+
+		<h2>largePaddingMax</h2>
+		<p>Set the max number of characters inside current table cell, and add class <span class="string">'large-padding'</span> on current td (if characters length is smaller than this number)</p>
+		<div class="holder">
+			<p>default: <span class="numeric">0</span></p>
+			<p>options: Any integer number</p>
+		</div>
+
+		<h2>*** Just for the record :)</h2>
+		<p>All paddings must be declared in <span class="string">ng_responsive_tables.css</span> CSS file!</p>
+	</div>
+
+</body>
+</html>
