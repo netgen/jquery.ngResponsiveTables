@@ -16,9 +16,9 @@
 
 	var defaults = {
 		tableSelector: '.ng-table',
-		smallPaddingMax: 0,
-		mediumPaddingMax: 0,
-		largePaddingMax: 0
+		smallPaddingCharNo: 0,
+		mediumPaddingCharNo: 0,
+		largePaddingCharNo: 0
 	},
 	ngResponsiveTables = {
 		opt: '',
@@ -45,9 +45,9 @@
 			}
 			// This padding is for large texts inside header of table
 			// Use small, medium and large paddingMax values from defaults to set-up offsets for each class
-			if( this.opt.smallPaddingMax > this.dataContent.length ){
+			if( this.opt.smallPaddingCharNo > this.dataContent.length ){
 				element.addClass('small-padding');
-			}else if( this.opt.mediumPaddingMax > this.dataContent.length ){
+			}else if( this.opt.mediumPaddingCharNo > this.dataContent.length ){
 				element.addClass('medium-padding');
 			}else{
 				element.addClass('large-padding');

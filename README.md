@@ -15,9 +15,9 @@ Default options:
 $(function(){
   ngResponsiveTables.init({
     tableSelector: '.ng-table',
-    smallPaddingMax: 13,
-  	mediumPaddingMax: 18,
-	largePaddingMax: 30
+    smallPaddingCharNo: 13,
+  	mediumPaddingCharNo: 18,
+    largePaddingCharNo: 30
   });
 });
 ```
