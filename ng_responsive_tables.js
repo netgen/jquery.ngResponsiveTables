@@ -16,7 +16,6 @@
 
 	var defaults = {
 		tableSelector: '.ng-table',
-		bla: '',
 		smallPaddingMax: 0,
 		mediumPaddingMax: 0,
 		largePaddingMax: 0
