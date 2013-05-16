@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Jquery.ngresponsivetables : " />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Jquery.ngresponsivetables</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/h4zarD/jquery.ngResponsiveTables">View on GitHub</a>
+
+          <h1 id="project_title">Jquery.ngresponsivetables</h1>
+          <h2 id="project_tagline"></h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/h4zarD/jquery.ngResponsiveTables/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/h4zarD/jquery.ngResponsiveTables/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p><strong>Preview</strong>: <a href="http://jsbin.com/azeyun/1/edit">ngResponsiveTables</a> - Resize the screen to see how it works &amp; <strong>don't forget to click "Run with JS" located on top right of output tab</strong></p>
+
+<p><strong>Warning</strong>: This jquery plugin requires CSS3 in order to work properly!*</p>
+
+<h1>ngResponsiveTables</h1>
+
+<p>This jQuery plugin converts regular table view into user friendly table for mobile devices.</p>
+
+<h2>Usage</h2>
+
+<p>Default options:</p>
+
+<div class="highlight"><pre><span class="nx">$</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+  <span class="nx">ngResponsiveTables</span><span class="p">.</span><span class="nx">init</span><span class="p">({</span>
+    <span class="nx">tableSelector</span><span class="o">:</span> <span class="s1">'.ng-table'</span><span class="p">,</span>
+    <span class="nx">smallPaddingMax</span><span class="o">:</span> <span class="mi">13</span><span class="p">,</span>
+    <span class="nx">mediumPaddingMax</span><span class="o">:</span> <span class="mi">18</span><span class="p">,</span>
+    <span class="nx">largePaddingMax</span><span class="o">:</span> <span class="mi">30</span>
+  <span class="p">});</span>
+<span class="p">});</span>
+</pre></div>
+
+<h2>Options</h2>
+
+<ul>
+<li>
+<strong>tableSelector</strong> - Table to use responsive styles on. You can use any element selector.</li>
+<li>
+<strong>smallPaddingMax</strong> - Set the max number of characters inside current table cell, and add class 'small-padding' on current td (if characters length is smaller than this number)</li>
+<li>
+<strong>mediumPaddingMax</strong> - Set the max number of characters inside current table cell, and add class 'medium-padding' on current td (if characters length is smaller than this number)</li>
+<li>
+<strong>largePaddingMax</strong> - Set the max number of characters inside current table cell, and add class 'large-padding' on current td (if characters length is smaller than this number)</li>
+</ul><h2>WARNING</h2>
+
+<p>All paddings must be declared in <strong>ng_responsive_tables.css</strong> CSS file!</p>
+
+<h2>Idea</h2>
+
+<p>Idea for this project came from <a href="http://css-tricks.com/examples/ResponsiveTables/responsive.php">CSS Tricks</a></p>
+
+<h2>Author</h2>
+
+<p>Tomislav Matijević</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Jquery.ngresponsivetables maintained by <a href="https://github.com/h4zarD">h4zarD</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
