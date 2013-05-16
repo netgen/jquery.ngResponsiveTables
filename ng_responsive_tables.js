@@ -31,7 +31,6 @@
 		targetTable: function(){
 			var that = this;
 			$(this.opt.tableSelector).find('tr').each(function(){
-				var $that = $(this);
 				$(this).find('td').each(function(i, v){
 					that.checkForTableHead( $(this), i );
 					$(this).addClass('tdno' + i);
