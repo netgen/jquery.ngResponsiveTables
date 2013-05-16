@@ -1,6 +1,5 @@
 /**
 * NG Responsive Tables v1.0
-* https://bitbucket.org/tmatijevic/ng_responsive_tables
 * Inspiration: http://css-tricks.com/examples/ResponsiveTables/responsive.php
 * Author: Tomislav Matijević
 * List of functions:
