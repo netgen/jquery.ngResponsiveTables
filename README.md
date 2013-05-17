@@ -13,10 +13,9 @@ Default options:
 
 ```javascript
 $(function(){
-  ngResponsiveTables.init({
-    tableSelector: '.ng-table',
+  $('.ng-table').ngResponsiveTables({
     smallPaddingCharNo: 13,
-  	mediumPaddingCharNo: 18,
+    mediumPaddingCharNo: 18,
     largePaddingCharNo: 30
   });
 });
@@ -24,10 +23,10 @@ $(function(){
 
 ## Options ##
 
-* __tableSelector__ - Table to use responsive styles on. You can use any element selector.
-* __smallPaddingMax__ - Set the max number of characters inside current table cell, and add class 'small-padding' on current td (if characters length is smaller than this number)
-* __mediumPaddingMax__ - Set the max number of characters inside current table cell, and add class 'medium-padding' on current td (if characters length is smaller than this number)
-* __largePaddingMax__ - Set the max number of characters inside current table cell, and add class 'large-padding' on current td (if characters length is smaller than this number)
+* __tableSelector__ - The selector of the table to use responsive styles on. You can use any element selector.
+* __smallPaddingCharNo__ - Set the max number of characters inside the current table cell, and add the 'small-padding' class  on the current td (if the length of the characters is smaller than this number)
+* __mediumPaddingCharNo__ - Set the max number of characters inside the current table cell, and add the 'medium-padding'  class on the current td (if the length of the characters is smaller than this number)
+* __largePaddingCharNo__ - Set the max number of characters inside the current table cell, and add the 'large-padding' class  on the current td (if the length of the characters is smaller than this number)
 
 ## WARNING ##
 All paddings must be declared in __ng_responsive_tables.css__ CSS file!
