@@ -6,14 +6,13 @@
 	<script type="text/javascript" src="ng_responsive_tables.js"></script>
 
 	<script type="text/javascript">
-	$(function(){
-	  ngResponsiveTables.init({
-	    tableSelector: '.ng-table',
-    	smallPaddingCharNo: 13,
-  		mediumPaddingCharNo: 18,
-			largePaddingCharNo: 30
-	  });
-	});
+		$(function(){
+		  $('.ng-table').ngResponsiveTables({
+		  	smallPaddingCharNo: 13,
+	    	mediumPaddingCharNo: 18,
+	    	largePaddingCharNo: 30
+		  });
+		});
 	</script>
 
 	<style type="text/css">
