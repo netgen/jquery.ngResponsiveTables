@@ -44,9 +44,9 @@
 			}
 			// This padding is for large texts inside header of table
 			// Use small, medium and large paddingMax values from defaults to set-up offsets for each class
-			if( this.opt.smallPaddingCharNo > this.dataContent.length ){
+			if( this.opt.smallPaddingCharNo > $.trim(this.dataContent).length ){
 				element.addClass('small-padding');
-			}else if( this.opt.mediumPaddingCharNo > this.dataContent.length ){
+			}else if( this.opt.mediumPaddingCharNo > $.trim(this.dataContent).length ){
 				element.addClass('medium-padding');
 			}else{
 				element.addClass('large-padding');
