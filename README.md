@@ -34,6 +34,4 @@ All paddings must be declared in __ng_responsive_tables.css__ CSS file!
 Idea for this project came from [CSS Tricks](http://css-tricks.com/examples/ResponsiveTables/responsive.php)
 
 ## Author ##
-
-Tomislav Matijević
-
+[Tomislav Matijević](https://github.com/tmatijev)
