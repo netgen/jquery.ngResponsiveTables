@@ -1,0 +1,44 @@
+@media (max-width:480px) {
+    table.responsive {
+        thead,
+        tbody,
+        th,
+        td,
+        tr {
+            display:block;
+        }
+        thead tr {
+            position:absolute;
+            top:-9999px;
+            left:-9999px;
+        }
+        tr {
+            border:1px solid #ccc;
+            margin-bottom:10px;
+        }
+        td {
+            border:none;
+            border-bottom:1px solid #eee;
+            position:relative;
+            padding:12px 5%;
+            width:100%;
+            &::before,
+            .td-text {
+                float:left;
+                width:50%;
+            }
+            &::before {
+                width:50%;
+                padding-right:15px;
+                text-align:left;
+                content:attr(data-content);
+                display:block;
+            }
+            &::after {
+                content:"";
+                display:table;
+                clear:both;
+            }
+        }
+    }
+}

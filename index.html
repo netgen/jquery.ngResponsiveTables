@@ -7,11 +7,7 @@
 
 	<script type="text/javascript">
 		$(function(){
-		  $('table.responsive').ngResponsiveTables({
-		  	smallPaddingCharNo: 13,
-	    	mediumPaddingCharNo: 18,
-	    	largePaddingCharNo: 30
-		  });
+		  $('table.responsive').ngResponsiveTables();
 		});
 	</script>
 
@@ -108,34 +104,6 @@
 	</tbody></table>
 
 	<h2 style="margin: 40px 0px;">In order to see "ngResponsiveTable" in action, resize this window to 480px or less</h2>
-
-	<h1>Options</h1>
-
-	<div class="options">
-		<h2>smallPaddingCharNo</h2>
-		<p>Set the max number of characters inside current table cell, and add class <span class="string">'small-padding'</span> on current td (if characters length is smaller than this number)</p>
-		<div class="holder">
-			<p>default: <span class="numeric">0</span></p>
-			<p>options: Any integer number</p>
-		</div>
-
-		<h2>mediumPaddingCharNo</h2>
-		<p>Set the max number of characters inside current table cell, and add class <span class="string">'medium-padding'</span> on current td (if characters length is smaller than this number)</p>
-		<div class="holder">
-			<p>default: <span class="numeric">0</span></p>
-			<p>options: Any integer number</p>
-		</div>
-
-		<h2>largePaddingCharNo</h2>
-		<p>Set the max number of characters inside current table cell, and add class <span class="string">'large-padding'</span> on current td (if characters length is smaller than this number)</p>
-		<div class="holder">
-			<p>default: <span class="numeric">0</span></p>
-			<p>options: Any integer number</p>
-		</div>
-
-		<h2>*** Just for the record :)</h2>
-		<p>All paddings must be declared in <span class="string">ng_responsive_tables.css</span> CSS file!</p>
-	</div>
 
 </body>
 </html>
