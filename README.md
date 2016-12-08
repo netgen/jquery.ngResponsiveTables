@@ -18,4 +18,6 @@ $(function(){
 Idea for this project came from [CSS Tricks](http://css-tricks.com/examples/ResponsiveTables/responsive.php)
 
 ## Author ##
-[Tomislav Matijević](https://github.com/tmatijev)
+[Goran Martinjak](https://github.com/goranNetgen)
+
+Original implementation by [Tomislav Matijević](https://github.com/tmatijev)
